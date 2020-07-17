@@ -13,8 +13,7 @@ const Gallery = () => {
   const changeIndex = (direction) => {
     const newIndex = index + direction;
 
-    console.log(newIndex);
-    if (newIndex >= 0 && newIndex + 1 <= images.length) {
+    if (newIndex >= 0 && newIndex <= images.length - 1) {
       setIndex(newIndex);
     }
   };
