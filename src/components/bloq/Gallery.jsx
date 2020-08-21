@@ -22,7 +22,7 @@ const Gallery = () => {
     <div className="gallery">
       <img src={images[index]} alt="Bardani family" />
       <div className="buttons">
-        {index !== 0 && <button onClick={() => changeIndex(-1)}>Previous</button>}
+        {!index && <button onClick={() => changeIndex(-1)}>Previous</button>}
         {index !== images.length - 1 && <button onClick={() => changeIndex(1)}>Next</button>}
       </div>
     </div>
