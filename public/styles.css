@@ -1,0 +1,29 @@
+.bloq {
+  text-align: center;
+}
+
+.bloq img {
+  margin-bottom: 20px;
+}
+
+.bloq h2, .bloq img {
+  margin: initial auto;
+}
+
+.bardanis {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bardani {
+  margin-right: 10px;
+  flex-basis: 15%;
+}
+
+.bardani:last-child {
+  margin-right: 0;
+}
+
+.bardani .name {
+  font-weight: bold;
+}
